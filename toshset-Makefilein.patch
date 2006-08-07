@@ -1,0 +1,19 @@
+--- Makefile.in	2005-10-10 18:05:26.000000000 +0200
++++ Makefile.in-new	2006-08-07 19:30:15.397567408 +0200
+@@ -244,16 +244,6 @@
+ # cancel the default rule
+ % : RCS/%,v
+ 
+-%.d: %.c
+-	$(CC) $(CFLAGS) -M $< >$@
+-%.d: %.cc
+-	$(CXX) $(CFLAGS) $(CXXFLAGS) -M $< >$@
+-
+-
+-include $(CXX_SRC:.cc=.d)
+-include $(C_SRC:.c=.d)
+-
+-
+ .c.o:
+ 	$(CC) $(CFLAGS) \
+ 		-DVERSION=\"$(VERSION)\" -DBINDIR=\"$(BINDESTDIR)\" -c $<
