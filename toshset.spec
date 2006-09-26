@@ -1,12 +1,12 @@
 Summary:	Toshset - a command-line tool allowing access to much of the Toshiba hardware interface
 Summary(pl):	Toshset - narzêdzie pozwalaj±ce na dostêp do wielu interfejsów sprzêtowych Toshiby
 Name:		toshset
-Version:	1.71
-Release:	0.2
+Version:	1.72
+Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://www.schwieters.org/toshset/%{name}-%{version}.tgz
-# Source0-md5:	1afca9a6607436e39911e26a46b3c1d1
+# Source0-md5:	27730989b58353a4ecaac35d76dc530f
 Patch0:		%{name}-Makefilein.patch
 URL:		http://www.schwieters.org/toshset/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
