@@ -1,5 +1,5 @@
 Summary:	Toshset - a command-line tool allowing access to much of the Toshiba hardware interface
-Summary(pl):	Toshset - narzêdzie pozwalaj±ce na dostêp do wielu interfejsów sprzêtowych Toshiby
+Summary(pl.UTF-8):   Toshset - narzÄ™dzie pozwalajÄ…ce na dostÄ™p do wielu interfejsÃ³w sprzÄ™towych Toshiby
 Name:		toshset
 Version:	1.72
 Release:	1
@@ -16,10 +16,10 @@ Toshset is a command-line tool allowing access to much of the Toshiba
 hardware interface. It can do things like control display brightness,
 set the fan speed, and enable the optional Bluetooth interface.
 
-%description -l pl
-Toshset to dzia³aj±ce z linii poleceñ narzêdzie pozwalaj±ce na dostêp
-do wielu interfejsów sprzêtowych Toshiby. Potrafi m.in. sterowaæ
-jasno¶ci± wy¶wietlacza, ustawiaæ prêdko¶æ wiatraczków i w³±czaæ
+%description -l pl.UTF-8
+Toshset to dziaÅ‚ajÄ…ce z linii poleceÅ„ narzÄ™dzie pozwalajÄ…ce na dostÄ™p
+do wielu interfejsÃ³w sprzÄ™towych Toshiby. Potrafi m.in. sterowaÄ‡
+jasnoÅ›ciÄ… wyÅ›wietlacza, ustawiaÄ‡ prÄ™dkoÅ›Ä‡ wiatraczkÃ³w i wÅ‚Ä…czaÄ‡
 opcjonalny interfejs Bluetooth.
 
 %prep
