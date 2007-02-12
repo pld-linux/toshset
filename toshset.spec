@@ -1,5 +1,5 @@
 Summary:	Toshset - a command-line tool allowing access to much of the Toshiba hardware interface
-Summary(pl.UTF-8):   Toshset - narzędzie pozwalające na dostęp do wielu interfejsów sprzętowych Toshiby
+Summary(pl.UTF-8):	Toshset - narzędzie pozwalające na dostęp do wielu interfejsów sprzętowych Toshiby
 Name:		toshset
 Version:	1.72
 Release:	1
